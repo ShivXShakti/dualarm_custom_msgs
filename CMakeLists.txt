@@ -28,6 +28,9 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
 "msg/TrajStatus.msg"
 "msg/PoseEuler.msg"
+"msg/PoseEulerArray.msg"
+"msg/ObjPose.msg"
+"msg/ObjPoseArray.msg"
 DEPENDENCIES sensor_msgs
 )
 
